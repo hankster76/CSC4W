@@ -4,7 +4,10 @@ D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\1\classe
 D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\10\classes.jar
 D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\11\classes.jar
 D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\12\classes.jar
-D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\13\support-annotations-25.3.1.jar
+D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\13\classes.jar
+D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\14\classes.jar
+D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\15\classes.jar
+D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\16\support-annotations-25.3.1.jar
 D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\2\classes.jar
 D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\3\classes.jar
 D:\nativescript\CSC4W\platforms\android\app\build\exploded-dependencies\4\classes.jar
