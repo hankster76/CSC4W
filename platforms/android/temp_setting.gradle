@@ -1,0 +1,13 @@
+android {
+            defaultConfig {
+                applicationId = "org.nativescript.CSC4W"
+
+                if (false) {
+                    minSdkVersion = false
+                }
+
+                if (false) {
+                    targetSdkVersion = false
+                }
+            }
+        }

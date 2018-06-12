@@ -1,0 +1,1 @@
+D:\nativescript\CSC4W\platforms\android\app/src/main/assets/app

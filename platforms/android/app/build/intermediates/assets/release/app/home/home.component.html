@@ -1,0 +1,17 @@
+<ActionBar title="" class="c-bg-orange">
+  <Label text="Colorado Springs Christian 4-Wheelers (v1.51)" class="t-17 c-white"></Label>
+</ActionBar>
+<TabView class="tab-view" selectedTabTextColor="black" selectedColor="green" iosIconRenderingMode="alwaysOriginal">
+  <StackLayout *tabItem="{title: 'Welcome', iconSource: 'res://welcome'}">
+    <router-outlet name="welcomeoutlet"></router-outlet>>
+  </StackLayout>
+  <StackLayout *tabItem="{title: 'Schedule', iconSource: 'res://calicon'}">
+    <router-outlet name="scheduleoutlet"></router-outlet>>
+  </StackLayout>
+  <StackLayout *tabItem="{title: 'Sponsors', iconSource: 'res://sponsoricon'}">
+    <router-outlet name="sponsoroutlet"></router-outlet>
+  </StackLayout>
+  <StackLayout *tabItem="{title: 'Directors', iconSource: 'res://directoricon'}">
+    <router-outlet name="directoroutlet"></router-outlet>
+  </StackLayout>
+</TabView> 

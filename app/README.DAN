@@ -1,0 +1,17 @@
+email plugin:
+    tns plugin add nativescript-email
+locate-address plugin:
+    tns plugin add nativescript-locate-address
+phone plugin:
+    tns plugin add nativescript-phone
+
+To build:
+
+Update 2 version numbers in AndroidManifest.xml under app\AppResources\Android
+
+
+tns build android --release --key-store-path d:\nativescript\csc4w\csc4w.keystore --key-store-password Romans828 --key-store-alias csc4w --key-store-alias-password Romans828
+
+file is in D:\nativescript\CSC4W\platforms\android\app\build\outputs\apk\release
+
+Create release in GooglePlay Console

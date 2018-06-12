@@ -1,0 +1,30 @@
+<Button text="Go Back to Schedule" (tap)="goBack()" class="btn btn-primary btn-orange"></Button>
+<ScrollView orientation="vertical">
+  <StackLayout>
+    <Label [text]="schedule.name" class="h2 text-center"></Label>
+    <Label [text]="schedule.group" class="h2 text-center"></Label>
+    <Label [text]="schedule.eventDate" textwrap="true" class="h2 text-center"></Label>
+    <GridLayout columns="120, *">
+      <Label [text]="'Meet at:'" col="0" class="h3 m-10"></Label>
+      <Label [text]="schedule.meetAt" col="1" textwrap="true" class="c-white c-bg-orange font-italic c-20 m-10" (tap)="tapAddr(schedule.meetAt)"></Label>
+    </GridLayout>
+    <GridLayout columns="120, *">
+      <Label [text]="'Meet time:'" col="0" class="h3 m-10"></Label>
+      <Label [text]="schedule.meetTime" col="1" textwrap="true" class="h3 m-10"></Label>
+    </GridLayout>
+    <Label [text]="'Touch here for trail head location'" col="1" class="text-center c-20 m-10 c-white c-bg-orange" (tap)="tapLatLong(schedule.lat, schedule.long)"></Label>
+    <GridLayout columns="120, *">
+        <Label [text]="'Rating:'" col="0" class="h3 m-10"></Label>
+        <Label [text]="schedule.rating" col="1" textwrap="true" class="h3 m-10"></Label>
+      </GridLayout>
+    <GridLayout columns="120, *" >
+      <Label [text]="'Leaders:'" col="0" class="h3 m-10 m-b-0"></Label>
+      <GridLayout col="1" columns="*,*,*">
+        <Label [text]="schedule.leader1" col="0" class="text-center c-20 m-10 c-white c-bg-orange" (tap)="call(schedule.leader1Phone)"></Label>
+        <Label [text]="schedule.leader2" col="1" class="text-center c-20 m-10 c-white c-bg-orange" (tap)="call(schedule.leader2Phone)"></Label>
+        <Label [text]="schedule.leader3" col="2" class="text-center c-20 m-10 c-white c-bg-orange" (tap)="call(schedule.leader3Phone)"></Label>
+      </GridLayout>
+    </GridLayout>
+      <Label [text]="schedule.desc" textwrap="true" class="h3 text-center m-10"></Label>
+  </StackLayout>
+</ScrollView>

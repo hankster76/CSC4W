@@ -1,0 +1,24 @@
+<Button text="Go Back to Sponsor List" (tap)="goBack()" class="btn btn-primary btn-orange"></Button>
+<ScrollView orientation="vertical">
+  <StackLayout>
+    <Label [text]="sponsor.name" class="h2 text-center"></Label>
+    <Label [text]="sponsor.address" textwrap="true" (tap)="tapAddr(sponsor.address)" class="text-center c-white c-bg-orange font-italic c-20 m-10"></Label>
+    <GridLayout columns="90, *">
+        <Label [text]="'Contact:'" col="0" class="h3 m-10"></Label>
+        <Label [text]="sponsor.contact" col="1" textwrap="true" class="h3 m-10" (tap)="call(sponsor.phone1)"></Label>
+      </GridLayout>  
+      <GridLayout columns="90, *">
+      <Label [text]="'Phone:'" col="0" class="h3 m-10"></Label>
+      <Label [text]="sponsor.phone1" col="1" textwrap="true" class="c-white c-bg-orange font-italic c-20 m-10" (tap)="call(sponsor.phone1)"></Label>
+    </GridLayout>
+    <GridLayout columns="90, *">
+      <Label [text]="'EMail:'" col="0" class="h3 m-10"></Label>
+      <Label [text]="sponsor.email" col="1" textwrap="true" class="c-white c-bg-orange font-italic c-20 m-10" (tap)="email(sponsor.email)"></Label>
+    </GridLayout>
+    <GridLayout columns="90, *">
+      <Label [text]="'WebSite:'" col="0" class="h3 m-10"></Label>
+      <Label [text]="sponsor.url" col="1" textwrap="true" class="c-white c-bg-orange font-italic c-20 m-10" (tap)="launch(sponsor.url)"></Label>
+    </GridLayout>
+    <Label [text]="sponsor.bio" textwrap="true" class="t-20 text-center m-10"></Label>
+  </StackLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<Button text="Go Back to Directors List" (tap)="goBack()" class="btn btn-primary btn-orange"></Button>
+<ScrollView orientation="vertical">
+  <StackLayout>
+    <Image col="0" [src]="director.imagesrc" class="thumb img-rounded" width="300" height="300" verticalAlignment="top"></Image>
+    <Label [text]="director.name" class="h1 text-center"></Label>
+    <Label [text]="director.title" class="h1 text-center"></Label>
+    <GridLayout columns="80, *">
+      <Label [text]="'Phone:'" col="0" class="h3 m-10"></Label>
+      <Label [text]="director.phone1" col="1" textwrap="true" class="c-white c-bg-orange font-italic c-20 m-10" 
+        (tap)="call(director.phone1)"></Label>
+    </GridLayout>
+    <GridLayout columns="80, *">
+      <Label [text]="'Email:'" col="0" class="h3 m-10"></Label>
+      <Label [text]="director.email" col="1" textwrap="true" class="c-white c-bg-orange font-italic c-20 m-10" 
+        (tap)="mailTo(director.email)"></Label>
+    </GridLayout>
+    <Label [text]="director.bio" textwrap="true" class="h3 m-10"></Label>
+  </StackLayout>
+</ScrollView>
