@@ -1,11 +1,11 @@
 {
-	"time": "Tue Jun 12 2018 12:05:30 GMT-0600 (Mountain Daylight Time)",
+	"time": "Tue Jun 12 2018 14:59:06 GMT-0600 (Mountain Daylight Time)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
 	"changesRequireBuild": true,
 	"projectFileHash": "a5abf9844f3abf278b1b66e15522f73433861740b8787d1811357447764ecd77",
-	"changesRequireBuildTime": "Tue Jun 12 2018 12:05:30 GMT-0600 (Mountain Daylight Time)",
+	"changesRequireBuildTime": "Tue Jun 12 2018 14:59:06 GMT-0600 (Mountain Daylight Time)",
 	"appFilesHashes": {
 		"D:\\nativescript\\CSC4W\\app\\app.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"D:\\nativescript\\CSC4W\\app\\app-routing.module.js": "0b1238f016e1158854bfdce5da833c6284fe8feb",
